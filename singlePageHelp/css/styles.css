@@ -1,0 +1,190 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #666;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#ppl {
+  width: 1200px;
+  margin: auto; /* Added semicolon */
+}
+
+nav {
+  height: 80px;
+  background-color: #ffffff;
+}
+
+#_1 {
+  width: 280px;
+  height: 80px;
+  background-image: url("../images/logo_naturio.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 10px;
+}
+
+#_6 {
+  width: 580px;
+  height: 357px;
+  background-image: url("../images/farmer_products.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin-top: 36px;
+  margin-right: 20px;
+  margin-bottom: 45px;
+  margin-left: 10px;
+}
+
+#_7 {
+  width: 580px;
+  height: 357px;
+  background-image: url("../images/new_essentials.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin-bottom: 45px;
+  margin-top: 36px;
+}
+
+#_8 {
+  width: 1200px;
+  height: 730px;
+  background-image: url("../images/fruits_vegetables.jpg");
+  background-repeat: no-repeat;
+  float: left;
+}
+
+footer {
+  height: 390px;
+  background-color: #ffffff;
+}
+
+#_2 {
+  width: 880px;
+  height: 80px;
+  float: left;
+  background-color: #ffffff;
+}
+nav ul li {
+  float: Right;
+}
+nav ul {
+  margin-right: 30px;
+}
+nav ul li {
+  display: block;
+  color: #a5a5a5;
+  font-size: 13px;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+header {
+  height: 840px;
+  background-image: url("../images/header.jpg");
+}
+main {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  color: #86ae34;
+  font-size: 32px;
+}
+
+.contenedor-cards{
+  display: flex;
+}
+
+.bloque-informacion {
+  width: 380px;
+  height: 286px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bloque-imagenes {
+  width: 300px;
+  height: 286px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info1 {
+  font-family: "Pacifico", cursive;
+  color: #86ae34;
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 38px;
+}
+.info2 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #4e4e4e;
+  font-size: 20px;
+  margin-bottom: 21px;
+}
+.info3 {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #b8b8b8;
+  font-size: 16px;
+}
+
+.tamano {
+  clear: both;
+}
+
+hr {
+  margin-top: 18px;
+  width: 90%;
+  border: none;
+  border-top: 1px solid #a4a3a3;
+}
+
+.product-img-1{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../images/product_1.jpg");
+}
+
+.product-img-2{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../images/product_2.jpg");
+}
+
+.product-img-3{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../images/product_3.jpg");
+}
+
+.product-img-4{
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-image: url("../images/product_4.jpg");
+}
+
+
+.info-text-green{
+  color: #86ae34;
+}
+
+.info-text-black{
+  color: #4e4e4e;
+}
